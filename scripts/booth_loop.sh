@@ -1,6 +1,7 @@
 #!/bin/bash
 
 while true; do
+  xdg-open http://asgharlabs.mybluemix.net/
   ./01_output_code.sh
   sleep 5
   ./02_change_the_code.sh
