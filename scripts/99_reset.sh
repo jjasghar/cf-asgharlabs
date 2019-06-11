@@ -7,6 +7,7 @@ echo "# RESET RESET RESET RESET RESET "
 echo "#"
 echo "#"
 sed -i 's/i am a robot/HUMAN' ../app.rb
+cd ..
 git add .
 git commit -m "resetted on ${DATE}"
 ibmcloud cf push
