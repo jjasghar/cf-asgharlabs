@@ -10,6 +10,7 @@ sed -i 's/i am a robot/HUMAN/' ../app.rb
 cd ..
 git add .
 git commit -m "resetted on ${DATE}"
+git push origin master
 ibmcloud cf push
 echo "#"
 echo "#"
